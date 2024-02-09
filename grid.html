@@ -1,0 +1,67 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <title>Grid Practice</title>
+  </head>
+
+  <body style="padding-bottom: 1000px">
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: gray">div 1</div>
+      <div style="background-color: green">
+        div 2
+        <p>text1</p>
+      </div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+      "
+    >
+      <div style="background-color: gray">div 1</div>
+      <div style="background-color: green">
+        div 2
+        <p>text1</p>
+      </div>
+      <div style="background-color: red">div3</div>
+    </div>
+
+    <div
+      style="margin-top: 30px; display: grid; grid-template-columns: 100px 1fr"
+    >
+      <div style="background-color: gray">div 1</div>
+      <div style="background-color: green">div 2</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr;
+      "
+    >
+      <div style="background-color: gray">div 1</div>
+      <div style="background-color: green">div 2</div>
+      <div style="background-color: red">div 3</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+      "
+    >
+      <div style="background-color: gray; height: 200px">div 1</div>
+      <div style="background-color: green; height: 200px">div 2</div>
+      <div style="background-color: red; height: 200px">div 3</div>
+      <div style="background-color: green; height: 200px">div 1</div>
+      <div style="background-color: red; height: 200px">div 2</div>
+      <div style="background-color: green; height: 200px">div 3</div>
+    </div>
+  </body>
+</html>
